@@ -17,7 +17,7 @@ const Home1 = () => {
                         <p className='lg:text-3xl text-2xl  text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-600 mb-3 to-pink '>Welcome to</p>
 
                             <h2 className=' font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-pink-600mb-6 to-purple-700  text-left font-logo text-gray-900 text-4xl lg:text-6xl '>
-                            CARRY with CARE    <br /> <span className='lg:text-3xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-600 mb-6 to-pink'>Premium, <span className='bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-600 mb-6 to-pink'>Professional,</span> On time</span>
+                            CARRY with CARE    <br /> <span className='lg:text-3xl text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-600 mb-6 to-pink'>Premium <span className='bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-600 mb-6 to-pink'>Delivery Service</span></span>
                             </h2>
 
                             <p className="mt-3 text-lg text-gray-600">The very first Premium Home Delivery Service in Chittagong. We have an experienced & professional delivery team to deliver your product just on time! </p>
