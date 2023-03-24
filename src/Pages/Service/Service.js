@@ -9,10 +9,10 @@ import ServiceDetails from './ServiceDetails';
 const Service = () => {
 	return (
 		<div>
-			<section className="py-6 text-gray-900">
+			<section className="py-2 text-gray-900">
 				<div className="container mx-auto sm:p-10">
 					<div className="mb-16 space-y-4 text-center">
-						<h1 className="text-4xl font-logo  leading-tight">What Can You Send?</h1>
+						<h1 className="text-3xl font-logo  leading-tight">What Can You Send?</h1>
 						<p className="px-4 sm:px-8 lg:px-24">We offer a wide range of delivery services to meet your needs. Whether you're looking to send a parcel, an official document, or a special surprise, we have you covered. Here are some of our key services:</p>
 
 					</div>
