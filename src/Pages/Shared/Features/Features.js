@@ -1,6 +1,7 @@
 import React from 'react';
-import {  FaArrowRight,FaMoneyBillAlt  } from "react-icons/fa";
+import { FaArrowRight, FaMoneyBillAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import localate from '../../../assets/localate.jpg';
 
 
 const Features = () => {
@@ -10,8 +11,8 @@ const Features = () => {
                 <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
                     <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center text-start">
                         <div>
-                            <h3 className=" font-logo text-3xl lg:text-4xl leading-tight text-gray-900">Currently available in Chattogram</h3>
-                            <p className="mt-3 text-lg text-gray-600">We are currently available in Dhaka and Chattogram. We are constantly expanding to more places! Parcel will cover more places soon.</p>
+                            <h3 className=" font-logo text-3xl lg:text-4xl leading-tight text-gray-900">আমাদের পাচ্ছেন পুরো চট্টগ্রাম শহরে</h3>
+                            <p className="mt-3 text-lg text-gray-600">চট্টগ্রাম শহর হতে মইজ্জারটেক, বোয়ালখালী, মদুনাঘাট, হাটহাজারী, ভাটিয়ারী, পতেঙ্গা এসব এরিয়াতেও আমাদের সার্ভিস পাবেন ইনশাআল্লাহ! </p>
                             <div className="mt-12 space-y-12">
                                 <div className="flex">
                                     <div className="flex-shrink-0">
@@ -23,7 +24,7 @@ const Features = () => {
                                     </div>
                                     <div className="ml-4">
                                         <h4 className="text-lg font-medium leading-6 text-gray-900">On Demand Delivery</h4>
-                                        <p className="mt-2 text-gray-600">Left your charger or keys at home? Have it delivered to you on Pathao Parcel, without any hassle!</p>
+                                        <p className="mt-2 text-gray-600">অন-ডিমান্ড ডেলিভারি বলতে শুধু কাস্টোমাররের দেখানো জায়গায় প্রোডাক্ট ডেলিভারি নয়। খুব অল্প সময়ের মাঝে কিভাবে নিরাপদে গ্রহককের পণ্য সঠিকভাবে পৌঁছে দিবে তাকে বোঝায়। </p>
                                     </div>
                                 </div>
                                 <div className="flex">
@@ -36,7 +37,7 @@ const Features = () => {
                                     </div>
                                     <div className="ml-4">
                                         <h4 className="text-lg font-medium leading-6 text-gray-900">Trust Us</h4>
-                                        <p className="mt-2 text-gray-600">You can trust us to deliver your most confidential documents to the desired place absolutely intact right on time!</p>
+                                        <p className="mt-2 text-gray-600">আপনি আপনার সবচেয়ে গোপনীয় নথিগুলি কাঙ্ক্ষিত জায়গায় একেবারে অক্ষত সঠিক সময়ে এবং সময়মতো পৌঁছে দিতে আমাদের বিশ্বাস করতে পারেন!</p>
                                     </div>
                                 </div>
                                 <div className="flex">
@@ -49,13 +50,13 @@ const Features = () => {
                                     </div>
                                     <div className="ml-4">
                                         <h4 className="text-lg font-medium leading-6 text-gray-900">Emergency? Deliver via Parcel!</h4>
-                                        <p className="mt-2 text-gray-600">With Pathao Parcel, you can get your item in the quickest time. Because your emergencies are Parcel’s biggest concern!</p>
+                                        <p className="mt-2 text-gray-600">CARRYwithCARE 2.0 পার্সেলের মাধ্যমে, আপনি দ্রুততম সময়ে আপনার পণ্যগুলি পেতে পারেন৷ কারণ আপনার জরুরি পার্সেল আমাদের "Biggest Concern !</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div aria-hidden="true" className="mt-10 lg:mt-0">
-                            <img src="https://img.freepik.com/free-vector/delivery-service-with-mask-concept_23-2148505104.jpg?w=740&t=st=1678765717~exp=1678766317~hmac=68da457b7cc2ac0268b51a259bc9c1dbce36db83f879ad9820ce14f138167a1a" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
+                            <img src={localate} alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
                         </div>
                     </div>
                     <div>
@@ -73,8 +74,8 @@ const Features = () => {
                                             </div>
                                         </div>
                                         <div className="ml-4">
-                                            <h4 className="text-lg font-medium leading-6 text-gray-900">Work When You Want</h4>
-                                            <p className="mt-2 text-gray-600">An per velit appellantur, ut utinam minimum nominavi sit, odio nostro habemus ne nec. Ne sonet regione contentiones est.</p>
+                                            <h4 className="text-lg font-medium leading-6 text-gray-900">Work and Earn Money</h4>
+                                            <p className="mt-2 text-gray-600">সাইকেল দিয়ে কাজ করে আয় করুন মাসে সর্বোচ্চ ১৫০০০-২০০০০টাকা। মোটরবাইকে কাজ করলে ২৫০০০টাকা পর্যন্ত। পারফর্মেন্স বোনাস , বন্ধুকে রেফার করলে বোনাস , নতুন জয়েন করলে বোনাস , ঈদ/রোজায় অতিরিক্ত আয়ের সুযোগ, ইন্সুরেন্স এগুলো তো থাকছেই।</p>
                                         </div>
                                     </div>
                                     <div className="flex">
@@ -87,7 +88,7 @@ const Features = () => {
                                         </div>
                                         <div className="ml-4">
                                             <h4 className="text-lg font-medium leading-6 text-gray-900">Less labor earn more within a short time</h4>
-                                            <p className="mt-2 text-gray-600">Te per quidam maiorum ocurreret, etiam delicatissimi usu ad. Ne has quod periculis. Te sit primis iisque efficiantur.</p>
+                                            <p className="mt-2 text-gray-600">অল্প সময়ে ডেলিভারি করে বেস্টরাইডার হন। মাসে বেস্ট ইনকাম করুন। </p>
                                         </div>
                                     </div>
                                     <div className="flex">
@@ -100,19 +101,19 @@ const Features = () => {
                                         </div>
                                         <div className="ml-4">
                                             <h4 className="text-lg font-medium leading-6 text-gray-900">Extra earning with bonus keeps you smiling</h4>
-                                            <p className="mt-2 text-gray-600">Audire principes rationibus eam an, autem nominavi luptatum per te. Sumo fabulas vim eu, sonet saperet eleifend ut vix.</p>
+                                            <p className="mt-2 text-gray-600">পারফর্মেন্স বোনাস , বন্ধুকে রেফার করলে বোনাস , নতুন জয়েন করলে বোনাস , ঈদ/রোজায় অতিরিক্ত আয়ের সুযোগ, ইন্সুরেন্স</p>
                                         </div>
 
                                     </div>
                                     <div className='flex flex-col items-center md:flex-row'>
-                                    <Link
-                                to='/earn-with-bike'
-                                className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-red-400 hover:bg-red-700 focus:shadow-outline focus:outline-none'
-                            >
-                                < FaMoneyBillAlt />
-                                <span className='ml-2 mr-3 lg:mr-6'> Deliver & Earn</span>
-                                <FaArrowRight />
-                            </Link>
+                                        <Link
+                                            to='https://www.facebook.com/CarrywithCare2.0'
+                                            className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-red-400 hover:bg-red-700 focus:shadow-outline focus:outline-none'
+                                        >
+                                            < FaMoneyBillAlt />
+                                            <span className='ml-2 mr-3 lg:mr-6'> Deliver & Earn</span>
+                                            <FaArrowRight />
+                                        </Link>
 
                                     </div>
                                 </div>

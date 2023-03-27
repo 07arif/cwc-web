@@ -1,5 +1,6 @@
 import React from 'react';
 import Food from '../../assets/Service/food.jpg'
+import cake from '../../assets/cake.jpg';
 
 const ServiceDetails = () => {
     return (
@@ -10,16 +11,16 @@ const ServiceDetails = () => {
                         <img src={Food} alt="" className="h-80 object-fill bg-gray-500 rounded-lg" />
                         <div className="mx-8 flex flex-col justify-center flex-1 py-6 px-2 bg-gray-50 ">
 
-                            <h3 className="text-3xl font-bold">ফুড ডেলিভারি</h3>
+                            <h3 className="text-3xl font-bold">Food Delivery</h3>
                             <p className="my-6 text-gray-600">আমরা খুব দ্রুত এবং নির্ভরযোগ্যভাবে ফুড ডেলিভারি করি, আপনাদের যেকোনো ফুড আমরা দিচ্ছি খুব অল্প সময়ে ডেলিভারি। আমাদের রয়েছে দক্ষ ডেলিভারি রাইডারের দল। যারা যত দ্রুত সম্ভব এবং নিরাপদে আপনার খাবার আপনার কাছে পৌঁছে দিতে প্রতিশ্রুতিবদ্ধ।</p>
                         </div>
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
-                        <img src="https://img.freepik.com/free-photo/easter-carrot-cake-with-frosting-blue-background_1220-5219.jpg?w=740&t=st=1679037226~exp=1679037826~hmac=03effea62d23bf70f1ba8f1e7905e17fb2a930944349f7e85babab94c1a5df48" alt="" className="h-80  object-fill bg-gray-500 " />
+                        <img src={cake} alt="" className="h-80  object-fill bg-gray-500 " />
                         <div className="flex flex-col justify-center flex-1 py-6 px-2 bg-gray-50">
 
                             <h3 className="text-3xl font-bold">Cake & Dessert Delivery</h3>
-                            <p className="my-6 text-gray-600">We also offer cake and dessert delivery services, perfect for birthdays, weddings, and other special occasions. Our team of delivery drivers will make sure your sweet treats arrive in perfect condition, ready to be enjoyed by you and your guests.</p>
+                            <p className="my-6 text-gray-600">আমরা জন্মদিন, বিবাহ এবং অন্যান্য বিশেষ অনুষ্ঠানের জন্য কেক এবং ডেজার্ট ডেলিভারি করে থাকি। আমাদের ডেলিভারি রাইডের টিম নিশ্চিত করবে যে আপনার মিষ্টি খাবারগুলি নিখুঁত অবস্থায় পৌঁছেছে, আপনি এবং আপনার অতিথিরা উপভোগ করার জন্য প্রস্তুত।</p>
                         </div>
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
