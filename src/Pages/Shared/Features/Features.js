@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaArrowRight, FaMoneyBillAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import localate from '../../../assets/localate.jpg';
+import localate from '../../../assets/localate1.jpg';
 
 
 const Features = () => {
@@ -111,7 +111,7 @@ const Features = () => {
                                             className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-red-400 hover:bg-red-700 focus:shadow-outline focus:outline-none'
                                         >
                                             < FaMoneyBillAlt />
-                                            <span className='ml-2 mr-3 lg:mr-6'> Deliver & Earn</span>
+                                            <span className='ml-2 mr-3 lg:mr-6'>Deliver & Earn</span>
                                             <FaArrowRight />
                                         </Link>
 
