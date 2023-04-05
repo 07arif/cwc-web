@@ -7,28 +7,28 @@ import EarnWithBike from "../Pages/Shared/Others/EarnWithBike/EarnWithBike";
 
 const Routes = createBrowserRouter([
     {
-        path:'/',
-        element:<Main></Main>,
-        children:[
+        path: '/',
+        element: <Main></Main>,
+        children: [
             {
-                path:'/',
-                element:<Home></Home>
+                path: '/',
+                element: <Home></Home>
             },
             {
-                path:'/home',
-                element:<Home></Home>
+                path: '/home',
+                element: <Home></Home>
             },
             {
-                path:'/service',
-                element:<Service></Service>
+                path: '/service',
+                element: <Service></Service>
             },
             {
-                path:'/about',
-                element:<About></About>
+                path: '/about',
+                element: <About></About>
             },
             {
-                path:'/earn-with-bike',
-                element:<EarnWithBike></EarnWithBike>
+                path: '/bookYourParcel',
+                element: <EarnWithBike></EarnWithBike>
             }
         ]
     }

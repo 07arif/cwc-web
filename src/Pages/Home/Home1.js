@@ -23,7 +23,7 @@ const Home1 = () => {
 
                         <div className='flex flex-col items-center md:flex-row mt-3' >
                             <Link
-                                to='https://www.facebook.com/CarrywithCare2.0'
+                                to='/bookYourParcel'
                                 className='inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-gradient-to-r from-cyan-400 to-purple-500 hover:from-cyan-500 hover:to-cyan-500 focus:shadow-outline focus:outline-none'
                             >
                                 < FaMoneyBillAlt />
