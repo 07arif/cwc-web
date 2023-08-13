@@ -1,12 +1,13 @@
+import './Header.css';
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../../../assets/cwc-logo.png'
-import './Header.css';
+import logo from '../../../assets/main.png';
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <div className='bg-gradient-to-r from-blue-500 to-green-400'>
+    <div className='bg-gradient-to-r from-blue-500 to-red-500'>
       <div className='px-8 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-9'>
         <div className='relative flex items-center justify-between'>
           <NavLink
@@ -17,7 +18,7 @@ const Header = () => {
           >
             <img className='w-12' src={logo} alt="CWC-LOGO"></img>
             <span className='main-name ml-1 lg:ml-2 font-logo  lg:text-xl tracking-wide text-gray-200'>
-              CARRYwithCARE 2.0
+              Carry with Care 2.0
             </span>
           </NavLink>
           <ul className=' items-center hidden space-x-8 lg:flex'>
@@ -26,7 +27,7 @@ const Header = () => {
                 to='/home'
                 aria-label='Home'
                 title='Home'
-                className={({ isActive }) => isActive ? 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400' : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'}
+                className={({ isActive }) => isActive ? 'font-medium tracking-wide text-yellow-200 border-2 rounded p-2 transition-colors duration-200 hover:text-deep-purple-accent-400' : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'}
               >
                 Home
               </NavLink>
@@ -36,9 +37,9 @@ const Header = () => {
                 to='/service'
                 aria-label='Service'
                 title='Service'
-                className={({ isActive }) => isActive ? 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400' : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'}
+                className={({ isActive }) => isActive ? ' border-2 rounded p-2 font-medium tracking-wide text-yellow-200 transition-colors duration-200 hover:text-deep-purple-accent-400' : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'}
               >
-                Service
+                Services
               </NavLink>
             </li>
             <li>
@@ -46,9 +47,9 @@ const Header = () => {
                 to='/about'
                 aria-label='About us'
                 title='About us'
-                className={({ isActive }) => isActive ? 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400' : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'}
+                className={({ isActive }) => isActive ? ' border-2 rounded p-2 font-medium tracking-wide text-yellow-200 transition-colors duration-200 hover:text-deep-purple-accent-400' : 'font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400'}
               >
-                About us
+                Contacts
               </NavLink>
             </li>
           </ul>
@@ -129,7 +130,7 @@ const Header = () => {
                           Service
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           href='/about'
                           aria-label='About Us'
@@ -138,7 +139,7 @@ const Header = () => {
                         >
                           About Us
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </nav>
                 </div>

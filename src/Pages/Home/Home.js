@@ -9,7 +9,7 @@ import Home1 from './Home1';
 
 const Home = () => {
   return (
-    <div className='py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10'>
+    <div>
       <Home1></Home1>
       <Service></Service>
       <Features></Features>
